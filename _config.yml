@@ -3,12 +3,12 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle:
-description:
-author: John Doe
-language:
-timezone:
+title: Wilnd's Blog
+subtitle: 简单，美好，奋发
+description:  
+author: Mr Chen
+language: zh-Hans
+timezone: Asia/Shanghai
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
@@ -26,6 +26,12 @@ category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
 skip_render:
+
+# title
+links_title: 圈子
+# links
+links:
+   老谢: https://xiehf319.github.io
 
 # Writing
 new_post_name: :title.md # File name of new posts
@@ -72,9 +78,19 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
-
+theme: next
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: git
+  repo: https://github.com/wilnd/wilnd.github.io.git
+  branch: master
+#插件配置
+plugins: hexo-generator-feed 
+#- hexo-generator-sitemap 
+# RSS
+plugin: hexo-generator-feed
+feed:
+  type: atom ##feed类型 atom或者rss2
+  path: atom.xml ##feed路径
+  limit: 20  ##feed文章最小数量
