@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 
 {% set html_class = 'theme-next ' + theme.scheme %}
-{% if theme.use_motion %}
+{% if theme.motion.enable %}
   {% set html_class = html_class + ' use-motion' %}
 {% endif %}
 
@@ -11,9 +11,7 @@
   <title>{% block title %}{% endblock %}</title>
   {% include '_third-party/analytics/index.swig' %}
 </head>
-  {% if theme.leancloud_visitors.enable %}
-  {% include '_scripts/lean-analytics.swig' %}
-  {% endif %}
+
 <body itemscope itemtype="http://schema.org/WebPage" lang="{{ page.lang || page.language || config.language }}">
 
   {% set container_class = "container " %}
@@ -21,7 +19,7 @@
     {% set container_class = container_class + 'sidebar-position-' + theme.sidebar.position %}
   {% endif %}
 
-  <div class="{{ container_class }} {% block page_class %}{% endblock %} ">
+  <div class="{{ container_class }} {% block page_class %}{% endblock %}">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -68,9 +66,9 @@
   {% set scheme_script = '_scripts/schemes/' + theme.scheme | lower + '.swig' %}
   {% include scheme_script %}
 
-  {% block script_extra %}
-    {% include '_scripts/pages/post-details.swig' %}
-  {% endblock %}
+  {% include '_scripts/pages/post-details.swig' %}
+
+  {% block script_extra %}{% endblock %}
 
   {% include '_scripts/boostrap.swig' %}
 
