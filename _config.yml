@@ -82,9 +82,9 @@ theme: next
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: git
-  repo: https://github.com/wilnd/wilnd.github.io.git
-  branch: master
+#  type: git
+#  repo: https://github.com/wilnd/wilnd.github.io.git
+#  branch: master
 #插件配置
 plugins: hexo-generator-feed 
 #- hexo-generator-sitemap 
