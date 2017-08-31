@@ -38,12 +38,6 @@ Description about this pull, in several words...
 * Screens with this changes: N/A
 * Link to demo site with this changes: N/A
 
-### How to use?
-In NexT `_config.yml`:
-```yml
-...
-```
-
 ## Does this PR introduce a breaking change?
 - [ ] Yes.
 - [ ] No.

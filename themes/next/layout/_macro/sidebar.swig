@@ -28,30 +28,21 @@
 
       <section class="site-overview sidebar-panel{% if not display_toc or toc(page.content).length <= 1 %} sidebar-panel-active{% endif %}">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
-          {% if theme.avatar %}
-            <img class="site-author-image" itemprop="image"
-              src="{{ url_for( theme.avatar | default(theme.images + '/avatar.gif') ) }}"
-              alt="{{ theme.author }}" />
+          <img class="site-author-image" itemprop="image"
+               src="{{ url_for( theme.avatar | default(theme.images + '/avatar.gif') ) }}"
+               alt="{{ theme.author }}" />
+          <p class="site-author-name" itemprop="name">{{ theme.author }}</p>
+           {% if theme.seo %}
+              <p class="site-description motion-element" itemprop="description">{{ theme.signature }}</p>
+           {% else %}
+              <p class="site-description motion-element" itemprop="description">{{ theme.description }}</p>
           {% endif %}
-            <p class="site-author-name" itemprop="name">{{ theme.author }}</p>
-            <p class="site-description motion-element" itemprop="description">{#
-          #}{% if theme.seo %}{#
-            #}{{ theme.signature }}{#
-          #}{% else %}{#
-            #}{{ theme.description }}{#
-          #}{% endif %}{#
-          #}</p>
         </div>
-
         <nav class="site-state motion-element">
 
-          {% if config.archive_dir != '/' and site.posts.length > 0 %}
+          {% if config.archive_dir != '/' %}
             <div class="site-state-item site-state-posts">
-            {% if theme.menu.archives %}
-              <a href="{{ url_for(theme.menu.archives).split('||')[0] | trim }}">
-            {% else %}
-              <a href="{{ url_for(config.archive_dir) }}">
-            {% endif %}
+              <a href="{{ url_for(theme.menu.archives) }}">
                 <span class="site-state-item-count">{{ site.posts.length }}</span>
                 <span class="site-state-item-name">{{ __('state.posts') }}</span>
               </a>
@@ -95,9 +86,9 @@
           {% if theme.social %}
             {% for name, link in theme.social %}
               <span class="links-of-author-item">
-                <a href="{{ link.split('||')[0] | trim }}" target="_blank" title="{{ name }}">
+                <a href="{{ link }}" target="_blank" title="{{ name }}">
                   {% if theme.social_icons.enable %}
-                    <i class="fa fa-fw fa-{{ link.split('||')[1] | trim | default('globe') }}"></i>
+                    <i class="fa fa-fw fa-{{ theme.social_icons[name] | default('globe') | lower }}"></i>
                   {% endif %}
                     {% if not theme.social_icons.icons_only %}
                       {{ name }}
@@ -106,8 +97,9 @@
               </span>
             {% endfor %}
           {% endif %}
-        </div>
+		  		<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=500 height=300 src="//music.163.com/outchain/player?type=0&id=885883960&auto=1&height=300"></iframe>
 
+        </div>
         {% set cc = {'by': 1, 'by-nc': 1, 'by-nc-nd': 1, 'by-nc-sa': 1, 'by-nd': 1, 'by-sa': 1, 'zero': 1} %}
         {% if theme.creative_commons in cc %}
           <div class="cc-license motion-element" itemprop="license">
@@ -116,8 +108,6 @@
             </a>
           </div>
         {% endif %}
-
-        {# Blogroll #}
         {% if theme.links %}
           <div class="links-of-blogroll motion-element {{ "links-of-blogroll-" + theme.links_layout | default('inline') }}">
             <div class="links-of-blogroll-title">
@@ -133,11 +123,7 @@
             </ul>
           </div>
         {% endif %}
-
-        {% include '../_custom/sidebar.swig' %}
-
-      </section>
-
+		</section>
       {% if display_toc and toc(page.content).length > 1 %}
       <!--noindex-->
         <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
@@ -159,7 +145,6 @@
         </section>
       <!--/noindex-->
       {% endif %}
-
       {% if theme.sidebar.b2t %}
         <div class="back-to-top">
           <i class="fa fa-arrow-up"></i>
