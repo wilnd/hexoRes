@@ -189,7 +189,7 @@
                {% if theme.post_meta.item_text %}
                  <span class="post-meta-item-text">{{__('post.visitors')}}&#58;</span>
                {% endif %}
-                 <span class="leancloud-visitors-count"></span>
+                 <span class="leancloud-visitors-count">℃</span>
              </span>
           {% endif %}
 

@@ -22,6 +22,7 @@
 </div>
 
 {% if theme.copyright %}
+<script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
   <div class="powered-by">
     {{ __('footer.powered', '<a class="theme-link" href="https://hexo.io">Hexo</a>') }}
   </div>
