@@ -678,6 +678,10 @@ vendors:
   # https://github.com/ethantw/Han
   han:
 
+  leancloud_visitors:
+  enable: true
+  app_id: a4avsUvVKR6L9CfbG7SOecw7-gzGzoHsz
+  app_key: u3DNM5Lnkjf80LJvkguquqtP
 
 # Assets
 css: css
