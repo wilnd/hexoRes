@@ -6,6 +6,7 @@
 {% endif %}
 
 <html class="{{ html_class | lower }}" lang="{{ config.language }}">
+
 <head>
   {% include '_partials/head.swig' %}
   <title>{% block title %}{% endblock %}</title>
@@ -14,7 +15,9 @@
   {% if theme.leancloud_visitors.enable %}
   {% include '_scripts/lean-analytics.swig' %}
   {% endif %}
+  
 <body itemscope itemtype="http://schema.org/WebPage" lang="{{ page.lang || page.language || config.language }}">
+
 
   {% set container_class = "container " %}
   {% if theme.sidebar.position %}
