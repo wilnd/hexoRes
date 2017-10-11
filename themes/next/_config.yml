@@ -122,7 +122,7 @@ links_title: 友情链接
 #links_layout: block
 #links_layout: inline
 links:
-  cute nat: www.lilinat.top
+  #cute nat: www.lilinat.top
 
 # Sidebar Avatar
 # in theme directory(source/images): /images/avatar.jpg
