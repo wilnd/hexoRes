@@ -1,8 +1,8 @@
 ---
 title: Mysql运算符
 date: 2017-10-22 14:49:11
-tags: Mysql
-categories: javaWeb
+tags: Mysql 理论知识
+categories: 理论知识
 ---
 > 运算符优先级
 

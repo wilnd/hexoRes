@@ -1,8 +1,8 @@
 ---
 title: Mysql数据类型
 date: 2017-10-22 14:48:31
-tags: Mysql
-categories: javaWeb
+tags: Mysql 理论知识
+categories: 理论知识
 ---
 > 数值类型
 1. 整数

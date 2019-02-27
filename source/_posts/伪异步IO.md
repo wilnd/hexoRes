@@ -1,7 +1,7 @@
 ---
 title: 伪异步IO
 date: 2017-10-02 23:55:08
-tags: 通信
+tags: IO
 categories: Netty
 ---
 ### BIO改进

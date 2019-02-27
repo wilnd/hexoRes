@@ -1,8 +1,8 @@
 ---
 title: Mysql触发器
 date: 2017-10-22 14:50:11
-tags: Mysql
-categories: javaWeb
+tags: Mysql 理论知识
+categories: 理论知识
 ---
 ##### 触发器是与表有关的数据对象，在满足定义条件的时候触发，并执行触发器定义的语句集合。
 #### 1. 创建触发器

@@ -1,8 +1,8 @@
 ---
 title: Mysql 引擎，数据类型，字符集，索引
 date: 2017-10-22 14:49:44
-tags: Mysql
-categories: javaWeb
+tags: Mysql 理论知识
+categories: 理论知识
 ---
 ### 1.选择合适的Mysql 存储引擎
 >MyISAM

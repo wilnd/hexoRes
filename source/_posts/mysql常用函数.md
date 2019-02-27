@@ -1,8 +1,8 @@
 ---
 title: mysql常用函数
 date: 2017-10-22 14:49:26
-tags: Mysql
-categories: javaWeb
+tags: Mysql 理论知识
+categories: 理论知识
 ---
 >字符串函数
 

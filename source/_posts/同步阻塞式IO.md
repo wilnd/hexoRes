@@ -1,7 +1,7 @@
 ---
 title: 同步阻塞式IO
 date: 2017-10-02 23:56:33
-tags: 通信
+tags: IO
 categories: Netty
 ---
 ### BIO通信模型

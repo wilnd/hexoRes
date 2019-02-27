@@ -1,8 +1,8 @@
 ---
 title: Mysql事务控制
 date: 2017-10-22 14:50:28
-tags: Mysql
-categories: javaWeb
+tags: Mysql 理论知识
+categories: 理论知识
 ---
 #### 1. LOCK TABLE 与 UNLOCK TABLE
 - LOCK TABLES 锁定当前线程的表，如果表被其他线程锁定，则当前线程会等待，直到可以获取所有的锁。

@@ -1,8 +1,8 @@
 ---
 title: Mysql基础语法
 date: 2017-10-22 14:48:51
-tags: Mysql
-categories: javaWeb
+tags: Mysql 理论知识
+categories: 理论知识
 ---
 >DDL:数据定义语言 
 

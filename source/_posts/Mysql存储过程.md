@@ -1,8 +1,8 @@
 ---
 title: Mysql存储过程
 date: 2017-10-22 14:50:00
-tags: Mysql
-categories: javaWeb
+tags: Mysql 理论知识
+categories: 理论知识
 ---
 ### 存储过程
 ##### 存储过程和函数是事先经过编译并存储在数据库的一段sql语句集合。
