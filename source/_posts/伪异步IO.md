@@ -6,7 +6,7 @@ categories: Netty
 ---
 ### BIO改进
 同步阻塞IO面临一个链路需要一个线程处理到问题。后来有人对他到线程进行优化：后端使用一个线程池来处理多个客户端的请求接入，形成客户端个数M 线程池最大线程数N的比例关系，其中M可以远远大于N。通过线程池可以灵活到调配线程资源，减少了创建与销毁线程到开销。设置线程到最大值，防止由于海量并发接入导致到线程耗尽。
-![](http://ww1.sinaimg.cn/large/005Y4715gy1fjk7pn65g3j30p007n0xd.jpg)
+![](https://ww1.sinaimg.cn/large/005Y4715gy1fjk7pn65g3j30p007n0xd.jpg)
 如图：伪异步IO跟同步阻塞式IO的差别是多了一个环节--线程池，客户端是没有变化的。
 
 ### TimeServer 服务端
@@ -88,5 +88,5 @@ public class TimeServerHandlerExecutePool {
 
 ### 线程池类图：
 
-![](http://ww1.sinaimg.cn/large/005Y4715gy1fjk8ych9cjj306b096q31.jpg)
+![](https://ww1.sinaimg.cn/large/005Y4715gy1fjk8ych9cjj306b096q31.jpg)
 

@@ -10,7 +10,7 @@ categories: javaWeb
 
 > #### 数字类型：下列各类型中M代表数字类型的最大值
     
-![数据类型](http://ww1.sinaimg.cn/large/005Y4715gy1fj0fv7pq4mj30e3086mxd.jpg)
+![数据类型](https://ww1.sinaimg.cn/large/005Y4715gy1fj0fv7pq4mj30e3086mxd.jpg)
     
 - ######  如果是由ZEROFILL修饰，表示该数字是UNSIGNED(无符号类型)，否则就是SIGNED类型
 - ######  SERIAL代表 BIGINT UNSIGNED NOT NULL AUTO_INCREMENT UNIQUE.
@@ -42,7 +42,7 @@ HEX(b+0): FF A 5
 - ###### YEAR[(2|4)] 表示年的方式有两种，一种是2位数字，一种是4位数字。其意义是一样的。能表示的范围是 1901 to 2155
 > ### String类型
 
-![](http://ww1.sinaimg.cn/large/005Y4715gy1fj0nxsqongj30en03r74a.jpg)
+![](https://ww1.sinaimg.cn/large/005Y4715gy1fj0nxsqongj30en03r74a.jpg)
 - ###### CHAR CHAR列的长度在创建表格的时候就是固定的了，长度区间是 0 to 255
 - ###### VARCHAR varchar是可变长度用多少，拿多少 长度区间是 0 to 65,535，内容由两部分组成，实际存储的内容以及内容长度。
 - ###### BINARY

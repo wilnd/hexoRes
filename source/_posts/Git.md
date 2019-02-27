@@ -17,6 +17,6 @@ categories: tool
 ` git push origin master`
 >### 1. Git Bash 
 工作目录、暂存目录(也叫做索引)和仓库之间复制文件
-    [图解](http://marklodato.github.io/visual-git-guide/index-zh-cn.html)
+    [图解](https://marklodato.github.io/visual-git-guide/index-zh-cn.html)
     
->### 2.Git GUI --- Source Tree [教程](http://www.jianshu.com/p/5e1a76535221)
+>### 2.Git GUI --- Source Tree [教程](https://www.jianshu.com/p/5e1a76535221)

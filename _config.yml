@@ -3,9 +3,9 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Wilnd's Blog
-subtitle: 简单，奋发，无惧
-description:  
+title: 尘瀚小窝
+subtitle: 左手代码, 右手诗
+description:  一个人不仅应该拥有此生, 还需要有诗意的世界
 author: Mr Chen
 language: zh-Hans
 timezone: Asia/Shanghai
@@ -78,12 +78,12 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: next
+theme: maupassant
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/wilnd/wilnd.github.io.git
+  repo: git@139.159.155.43:/home/git/hexo.git
   branch: master
 #插件配置
 plugins: hexo-generator-feed 

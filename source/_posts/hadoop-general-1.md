@@ -4,7 +4,7 @@ date: 2017-09-01 23:43:23
 tags: hadoop
 categories: hadoop
 ---
-这是一片翻译文章，详情请参考[single node](http://hadoop.apache.org/docs/r2.7.4/hadoop-project-dist/hadoop-common/SingleCluster.html)
+这是一片翻译文章，详情请参考[single node](https://hadoop.apache.org/docs/r2.7.4/hadoop-project-dist/hadoop-common/SingleCluster.html)
 > 伪分布式(单节点集群)搭建
 
 1. 概述：该文章是用来描述怎么快速的安装和配置一个单节点hadoop，这样可以让你能够快速使用hadoop的 MapReduce以及HDFS组件。
@@ -15,7 +15,7 @@ categories: hadoop
      sudo apt-get install ssh
     sudo apt-get install rsync
     ```
-5. 下载：[可以去这里下载hadoop的镜像](http://www.apache.org/dyn/closer.cgi/hadoop/common/)
+5. 下载：[可以去这里下载hadoop的镜像](https://www.apache.org/dyn/closer.cgi/hadoop/common/)
 6. 准备开始一个hadoop集群的搭建：先将hadoop的分布式系统解压缩，然后编辑etc/hadoop/hadoop-env.sh，加入java的环境变量
     ```
       # set to the root of your Java installation
@@ -77,7 +77,7 @@ cat output/*
     sbin/start-dfs.sh
     hadoop的日志输出目录是 $HADOOP_LOG_DIR所示的值，默认是HADOOP_HOME/logs
     3.打开名字节点的web接口。默认是
-    NameNode - http://localhost:50070/
+    NameNode - https://localhost:50070/
     4.创建HDFS目录，用来执行MapReduce目录
     bin/hdfs dfs -mkdir /user
     bin/hdfs dfs -mkdir /user/<username>
@@ -116,7 +116,7 @@ cat output/*
 	```
     3.打开资源管理的web接口，默认值是下面的
     ```
-	ResourceManager - http://localhost:8088/    
+	ResourceManager - https://localhost:8088/    
 	```
     4.运行mapreduce程序
     5.关闭资源节点

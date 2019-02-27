@@ -37,7 +37,7 @@ categories: javaWeb
 
 >#### BIO 阻塞式IO
 
-![](http://ww1.sinaimg.cn/large/005Y4715gy1fj92asb8scj30fx0acta4.jpg)
+![](https://ww1.sinaimg.cn/large/005Y4715gy1fj92asb8scj30fx0acta4.jpg)
 
 ```
 ServerSocket serverSocket = new ServerSocket(portNumber);//1
@@ -68,7 +68,7 @@ out.println(response);                                    //7
 >NIO 非阻塞式IO
 
 #### SELECTOR是 Java 的无阻塞 I/O 实现的关键
-![](http://ww1.sinaimg.cn/large/005Y4715gy1fj92cpeip8j30fw0dj401.jpg)
+![](https://ww1.sinaimg.cn/large/005Y4715gy1fj92cpeip8j30fw0dj401.jpg)
 #### 分析：Selector 最终决定哪一组注册的 socket 准备执行 I/O。通过通知，一个线程可以同时处理多个并发连接。总体而言，该模型提供了比 阻塞 I/O 模型 更好的资源使用，因为
 - 可以用较少的线程处理更多连接，这意味着更少的开销在内存和上下文切换上
 - 当没有 I/O 处理时，线程可以被重定向到其他任务上。

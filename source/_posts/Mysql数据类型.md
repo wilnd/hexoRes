@@ -6,7 +6,7 @@ categories: javaWeb
 ---
 > 数值类型
 1. 整数
-![](http://ww1.sinaimg.cn/large/005Y4715gy1fknf9p3cgvj30lv09aq6i.jpg)
+![](https://ww1.sinaimg.cn/large/005Y4715gy1fknf9p3cgvj30lv09aq6i.jpg)
 - 超出取值范围，会发生“Out Of Range”报错
 - int(5)表示数值宽度小于5时，数字前面填满宽度（如果超过这个宽度是没有影响的）
 - 整数类型有一个属性AUTO_INCREMENT 一个表最多有一个，插入的数比该列最大值+1 并且为NOT NULL，还有就是为PRIMARY KEY或者UNIQUE
@@ -16,7 +16,7 @@ categories: javaWeb
 3. bit类型 
 > 日期时间类型
 
-![](http://ww1.sinaimg.cn/large/005Y4715gy1fknitgv2l0j30mu05gdi4.jpg)
+![](https://ww1.sinaimg.cn/large/005Y4715gy1fknitgv2l0j30mu05gdi4.jpg)
 1. TIMESTAMP默认值为current_timestamp
 2. show variables like 'time_zone'
 3. DATA_TIME  不管插入的是以下那种形式，展示出来的是YYYY-MM-DD HH:MM:SS或YY-MM-DD HH:MM:SS
@@ -27,7 +27,7 @@ categories: javaWeb
  - 函数：NOW() CURRENT_DATE
  
 > 字符串类型
-![](http://ww1.sinaimg.cn/large/005Y4715gy1fknk4i13p3j30n00bnte1.jpg)
+![](https://ww1.sinaimg.cn/large/005Y4715gy1fknk4i13p3j30n00bnte1.jpg)
 1. char与varchar char在建表的时候声明长度，范围在0~255以内。varchar的值为可变长度
 2. binary和varbinary 存储2进制的数值
 3. enum 枚举类型 存储255个成员需要一个字节，存储65535个成员需要二个字节

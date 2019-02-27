@@ -9,13 +9,13 @@ categories: Netty
 - SocketChannel操作都是异步的，如果没有可读写到操作他不会等待，而是返回。这样IO线程可以处理其他链路。
 - 线程模型优化，一个多路选择器线程可以同时处理成千上万个客户端连接，而且性能不会随着客户端连接数到增加而直线下降
 #### SocketChannel
-![](http://ww1.sinaimg.cn/large/005Y4715gy1fjl7r8lbx7j30os0icq3n.jpg)
+![](https://ww1.sinaimg.cn/large/005Y4715gy1fjl7r8lbx7j30os0icq3n.jpg)
 #### ServerSocketChannel
-![](http://ww1.sinaimg.cn/large/005Y4715gy1fjl7pyzix5j30c90i2t98.jpg)
+![](https://ww1.sinaimg.cn/large/005Y4715gy1fjl7pyzix5j30c90i2t98.jpg)
 
 ### TimeServer
 #### 服务端序列图
-![](http://ww1.sinaimg.cn/large/005Y4715gy1fjlev8ff3jj30m90dkq5f.jpg)
+![](https://ww1.sinaimg.cn/large/005Y4715gy1fjlev8ff3jj30m90dkq5f.jpg)
 
 ```
 /**
@@ -205,7 +205,7 @@ public class MultiplexerTimeServer implements Runnable {
 ```
 ### Timeclient
 #### 客户端序列图
-![](http://ww1.sinaimg.cn/large/005Y4715gy1fjlew2dxbkj30l40gldj1.jpg)
+![](https://ww1.sinaimg.cn/large/005Y4715gy1fjlew2dxbkj30l40gldj1.jpg)
 ```
 /**
  * Created by hadoop on 2017/9/15.

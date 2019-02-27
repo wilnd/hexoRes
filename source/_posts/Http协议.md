@@ -16,7 +16,7 @@ HTTP协议的主要特点可概括如下：
 host表示合法的Internet主机域名或者IP地址；port指定一个端口号，为空则使用缺省端口80；abs_path指定请求资源的URI；如果URL中没有给出abs_path，那么当它作为请求URI时，必须以“/”的形式给出
 
 ```
-http://host[":"port][abs_path]
+https://host[":"port][abs_path]
 ```
 
 ### HTTP之请求组成 ：请求行，消息报头，响应正文
@@ -32,12 +32,12 @@ http://host[":"port][abs_path]
 1. HTTP1.0定义了三种请求方法： GET, POST 和 HEAD方法。
 2. HTTP1.1新增了五种请求方法：OPTIONS, PUT, DELETE, TRACE 和 CONNECT 方法。
 
-![](http://ww1.sinaimg.cn/large/005Y4715gy1fkj98pah31j30j509dwg6.jpg)
+![](https://ww1.sinaimg.cn/large/005Y4715gy1fkj98pah31j30j509dwg6.jpg)
 
 ##### 注意：
 GET和POST本质上就是TCP链接，并无差别。但是由于HTTP的规定和浏览器/服务器的限制，导致他们在应用过程中体现出一些不同。 GET和POST还有一个重大区别，简单的说：GET产生一个TCP数据包；POST产生两个TCP数据包。对于GET方式的请求，浏览器会把http header和data一并发送出去，服务器响应200（返回数据）； 而对于POST，浏览器先发送header，服务器响应100 continue，浏览器再发送data，服务器响应200 ok（返回数据）。
 
-![](http://ww1.sinaimg.cn/large/005Y4715gy1fkjcc6t4k9j30mg0d20tp.jpg)
+![](https://ww1.sinaimg.cn/large/005Y4715gy1fkjcc6t4k9j30mg0d20tp.jpg)
 
 #### 2. 响应
 HTTP响应由三个部分组成：状态行、消息报头、响应正文

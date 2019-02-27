@@ -19,7 +19,7 @@ s1：512M 内存 10G硬盘
 
 s2：512M 内存 10G硬盘
 
->准备好hadoop稳定版。2.7.3是hadoop 2.X的稳定版[hadoop](http://www-eu.apache.org/dist/hadoop/common/stable/)
+>准备好hadoop稳定版。2.7.3是hadoop 2.X的稳定版[hadoop](https://www-eu.apache.org/dist/hadoop/common/stable/)
 
 准备好工具 xshell xftp
 
@@ -188,5 +188,5 @@ hadoop初始化 (m1节点)
 bin/hdfs namenode -format
 启动hadoop集群(m1节点）
 start-all.sh
-[hadoop常用参数](http://www.zhangrenhua.com/2016/01/05/hadoop-%E5%B8%B8%E7%94%A8%E5%8F%82%E6%95%B0%E6%95%B4%E7%90%86/?spm=5176.100239.blogcont152086.23.2GzKob)
+[hadoop常用参数](https://www.zhangrenhua.com/2016/01/05/hadoop-%E5%B8%B8%E7%94%A8%E5%8F%82%E6%95%B0%E6%95%B4%E7%90%86/?spm=5176.100239.blogcont152086.23.2GzKob)
 [hadoop默认参数](https://segmentfault.com/a/1190000000709725?spm=5176.100239.blogcont152086.24.58jMXV)

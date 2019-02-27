@@ -6,7 +6,7 @@ categories: Netty
 ---
 ### BIO通信模型
 通常由一个独立到Acceptor线程负责监听客户端连接，他接收到客户端连接请求后，为每个客户端创建一个新的线程进行链路处理。处理完后通过输出流返回给客户端，线程销毁。这是典型到一请求一应答通信模型。
-![](http://ww1.sinaimg.cn/large/005Y4715gy1fjk0aouwa0j30nh07yadu.jpg)
+![](https://ww1.sinaimg.cn/large/005Y4715gy1fjk0aouwa0j30nh07yadu.jpg)
 
 #### 服务端TimeServer
 
@@ -60,7 +60,7 @@ public class TimeServer {
     }
 }
 ```
-![](http://ww1.sinaimg.cn/large/005Y4715gy1fjk3muq2nkj30gl078mxc.jpg)
+![](https://ww1.sinaimg.cn/large/005Y4715gy1fjk3muq2nkj30gl078mxc.jpg)
 
 上图是java visual vm 的service线程的堆栈信息的一部分。如图：服务端启动后，会阻塞在循环的31行的accept方法。如果有客户端发送连接过来，跳出accept，执行下面的命令，产生一个新的线程跟客户端通信。
 

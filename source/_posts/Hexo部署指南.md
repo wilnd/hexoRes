@@ -33,10 +33,10 @@ categories: 博客搭建
 
 > 首先需要在GitHub上注册一个账号。仅仅需要用到邮箱（QQ邮箱也行），密码（大小写都要有）注册还是很方便的。 注册，邮箱激活，登录后到如下界面，点击如图的新建按钮
 
-![](http://ww1.sinaimg.cn/large/005Y4715gy1fin7xe1iwoj30va0e4mye.jpg)
+![](https://ww1.sinaimg.cn/large/005Y4715gy1fin7xe1iwoj30va0e4mye.jpg)
 > 在框框里面输入项目名 格式：GitHub用户名+github.io
 
-![](http://ww1.sinaimg.cn/large/005Y4715gy1fin7z7wodoj30u80jn3zw.jpg)
+![](https://ww1.sinaimg.cn/large/005Y4715gy1fin7z7wodoj30u80jn3zw.jpg)
 > 点击Create responsitory 完成GitHub page的创建
 
 - ssh的配置
@@ -64,23 +64,23 @@ cd ~/.ssh
 > - 将公钥丢到GitHub上去
 
 > 1. 点击setting
-![](http://ww1.sinaimg.cn/large/005Y4715gy1fin8m2wewqj30vx0jkabo.jpg)
+![](https://ww1.sinaimg.cn/large/005Y4715gy1fin8m2wewqj30vx0jkabo.jpg)
 
 > 2. 点击SSH
-![](http://ww1.sinaimg.cn/large/005Y4715gy1fin8pbsy1mj30yx0mn76f.jpg)
+![](https://ww1.sinaimg.cn/large/005Y4715gy1fin8pbsy1mj30yx0mn76f.jpg)
 
 > 3. New SSH key
-![](http://ww1.sinaimg.cn/large/005Y4715gy1fin8qt6qlhj30wr0gcdhq.jpg)
+![](https://ww1.sinaimg.cn/large/005Y4715gy1fin8qt6qlhj30wr0gcdhq.jpg)
 
 > 4. title随便填，key填写公钥（id_rsa.pub）里面的全部内容
-![](http://ww1.sinaimg.cn/large/005Y4715gy1fin8s0lvvej318g0o4427.jpg)
+![](https://ww1.sinaimg.cn/large/005Y4715gy1fin8s0lvvej318g0o4427.jpg)
 
 > - 验证
 
 ```
  ssh -T git@github.com
 ```
-> ![](http://ww1.sinaimg.cn/large/005Y4715gy1fin8w17pe9j30fq03nglm.jpg)
+> ![](https://ww1.sinaimg.cn/large/005Y4715gy1fin8w17pe9j30fq03nglm.jpg)
 
 > 如果不是这样的，ssh重新来过
 
@@ -91,7 +91,7 @@ cd ~/.ssh
 npm install -g hexo-cli
 ```
 > Hexo目录结构
-![](http://ww1.sinaimg.cn/large/005Y4715gy1fin94lrgrwj30ik07igm3.jpg)
+![](https://ww1.sinaimg.cn/large/005Y4715gy1fin94lrgrwj30ik07igm3.jpg)
 
 > 编译
 

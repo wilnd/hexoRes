@@ -77,7 +77,7 @@ public void operationComplete(ChannelFuture future) {
 出站事件是由于在<font color="#FF0000">未来操来将触发</font>一个动作：
 - 打开或关闭一个连接到远程
 - 写或冲刷数据到 socket
-![](http://ww1.sinaimg.cn/large/005Y4715gy1fj948oocb5j30k507gjtl.jpg)
+![](https://ww1.sinaimg.cn/large/005Y4715gy1fj948oocb5j30k507gjtl.jpg)
 ##### Netty 的 ChannelHandler 是各种<font color="#FF0000">处理程序的基本抽象</font>。想象下，每个处理器实例就是一个回调，用于执行对各种事件的响应。
 >整合
 

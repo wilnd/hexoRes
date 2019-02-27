@@ -9,11 +9,11 @@ categories: 网络与安全
 [HTTPS 原理详解
 ](https://zhuanlan.zhihu.com/p/27395037)
 
-[HTTPS五个技术难点](http://support.upyun.com/hc/kb/article/1058927/)
+[HTTPS五个技术难点](https://support.upyun.com/hc/kb/article/1058927/)
 
 ### HTTP进化道路（简略版）
 1. HTTP协议是属于tcp/ip协议的应用层，HTTP请求过程中，客户端与服务器之间没有任何身份确认的过程，数据全部明文传输，“裸奔”在互联网上，所以很容易遭到黑客的攻击
-![](http://ww1.sinaimg.cn/large/005Y4715gy1fkj81oy0c8j30py0cdwfd.jpg)
+![](https://ww1.sinaimg.cn/large/005Y4715gy1fkj81oy0c8j30py0cdwfd.jpg)
 2. 于是人们想到一个办法：通过对称加密的方式，对传输的信息加密。
 3. 但是对称加密密钥不安全，密钥维护也是十分滴繁琐，所以进化成使用非对称加密的方式。
 4. 非对称加密的方式公钥不安全，也许拿到的公钥是黑客的。所以再次进化，使用ssl证书。
