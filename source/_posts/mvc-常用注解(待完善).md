@@ -1,8 +1,8 @@
 ---
 title: mvc注解
 date: 2018-04-01 15:17:17
-tags: spring-mvc
-categories: spring-mvc
+tags: java spring
+categories: java
 ---
 
 1. <context:component-scan base-package="com.yhglobal.gongxiao"/>

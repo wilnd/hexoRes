@@ -1,8 +1,8 @@
 ---
 title: Mybatis
 date: 2017-08-26 10:09:03
-tags: javaWeb
-categories: javaWeb
+tags: java mybatis
+categories: java
 ---
 # mybatis 架构图
 ![](https://ww1.sinaimg.cn/large/005Y4715gy1fiww0d1m92j30my0gxadu.jpg)

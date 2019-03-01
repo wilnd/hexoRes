@@ -1,8 +1,8 @@
 ---
 title: Mysql Date Type
 date: 2017-08-29 21:11:53
-tags: javaWeb
-categories: javaWeb
+tags: mysql
+categories: java
 ---
 ## 该文章是翻译文，源自[Mysql-DateType](https://dev.mysql.com/doc/refman/5.5/en/numeric-type-overview.html)
 
